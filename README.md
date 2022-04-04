@@ -13,7 +13,8 @@ The goal of minipkg is to tell you what time it is.
 You can install the development version of minipkg like so:
 
 ``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+# install.packages("remotes")
+remotes::install_github("maelle/minipkg")
 ```
 
 ## Example
@@ -23,9 +24,9 @@ This is a basic example which shows you how to solve a common problem:
 ``` r
 library(minipkg)
 what_time(language = "en")
-#> Heh!
-#> [1] "It is 17:05 now!"
+#> Ah!
+#> [1] "It is 17:10 now!"
 what_time(language = "fr")
-#> Yay!
-#> [1] "Il est maintenant 17:05!"
+#> Ah!
+#> [1] "Il est maintenant 17:10!"
 ```
